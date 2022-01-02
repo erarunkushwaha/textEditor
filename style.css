@@ -1,0 +1,60 @@
+#text-output {
+    min-height: 200px;
+    border-radius: 3px;
+    padding: 10px;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  
+  #text-input {
+    min-height: 200px;
+  }
+  
+  .editor .col {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+
+  .textborder{
+      border: 2px solid rgba(0, 0, 0, 0.247);
+  }
+
+  .textshadow{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);
+  }
+
+  .textshadow:hover{
+    box-shadow: 3px 3px 10px rgba(8, 90, 138, 0.705);
+    transition: all .3s ease-in-out;
+  }
+
+  .author{
+      margin: 2rem 0;
+      padding: .7rem 0;
+      font-size: 2rem;
+      font-weight: 600;
+      border: 2px dotted rgb(16, 40, 145);
+  }
+
+  .author a{
+    color: #007BFF;
+    background: rgba(195, 197, 206, 0.582);
+    padding: .3rem 1.4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  
+  
